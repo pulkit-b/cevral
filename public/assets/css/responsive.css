@@ -534,9 +534,9 @@
         display: none !important;
     }
 
-    .sticky {
+    /* .sticky {
         position: relative !important;
-    }
+    } */
 
     /*slider area*/
     .slider-content h1 {
@@ -1332,9 +1332,9 @@
         display: none;
     }
 
-    .sticky {
+    /* .sticky {
         position: relative !important;
-    }
+    } */
 
     .consen-button.text-right {
         text-align: center !important;
@@ -2128,9 +2128,9 @@
         display: none !important;
     }
 
-    .sticky {
+    /* .sticky {
         position: relative !important;
-    }
+    } */
 
     /*slider area*/
     .slider-area {
@@ -3185,9 +3185,9 @@
         display: none !important;
     }
 
-    .sticky {
+    /* .sticky {
         position: relative !important;
-    }
+    } */
 
     .style-three.about-area .dreamit-about-thumb {
         margin: 0;

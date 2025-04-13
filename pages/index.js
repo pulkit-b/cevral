@@ -9,6 +9,9 @@ const Index = () => {
   useEffect(() => {
     const video = document.getElementById('video-bg');
     if (video) {
+      video.muted = true;
+video.autoplay = true;
+video.playsInline = true;
       video.play().catch((e) => {
         console.warn("Autoplay prevented:", e);
       });
@@ -21,6 +24,7 @@ const Index = () => {
       {/*==================================================*/}
       <div class="video-bg-container">
       <video autoplay muted loop playsinline class="video-bg" id="video-bg">
+    <source src="/assets/images/slider/hero-bg.m4v" type="video/m4v" />
     <source src="/assets/images/slider/hero-bg.mp4" type="video/mp4" />
   </video>
       <div className="slider-area d-flex align-items-center">

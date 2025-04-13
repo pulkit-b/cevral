@@ -4,13 +4,9 @@ export const DaskTopMenusMenus = () => {
   return (
     <ul className="nav_scroll">
       {" "}
+      
       <li>
-        <a href="/">
-          Home{" "}
-        </a>
-      </li>{" "}
-      <li>
-        <a href="#">
+        <a href="/service">
           Services{" "}
           <span>
             <i className="fas fa-angle-down" />
@@ -174,7 +170,7 @@ export const DaskTopMenusMenus = () => {
         </ul>
       </li>{" "}
       <li>
-        <Link legacyBehavior href="contact">
+        <Link legacyBehavior href="/contact">
           Contact
         </Link>
       </li>

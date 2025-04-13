@@ -90,7 +90,7 @@ const Footer3 = () => {
                 </div>
                 <div className="widget-location">
                   <h4>Contacts</h4>
-                  <span>+91 86400-74511</span>
+                  <span>+91 86400-74511</span><br/>
                   <span>sales@cevral.com</span>
                 </div>
                 <div className="widget-location">

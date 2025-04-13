@@ -469,6 +469,16 @@ ul.sub-menu li:hover a span {
   overflow: hidden;
 }
 
+
+.mean-bar .logo{
+  display: inline-block;
+  margin: 15px 25px;
+  width: 65%;
+}
+
+.mean-bar .logo img{
+  width: 145px!important;
+}
 /*Sub menu style three*/
 .consen_nav_manu.style-three .consen_menu > ul > li > a {
   color: #232323;
