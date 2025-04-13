@@ -1,7 +1,7 @@
 import { useRouter } from "next/router";
 import Breadcumb from "@/src/components/Breadcumb";
 import Layout from "@/src/layout/Layout";
-import industries from "./content";
+import industries from "@/content/industries/content";
 
 const PortfolioDetails = () => {
     const { query } = useRouter();

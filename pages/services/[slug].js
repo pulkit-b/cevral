@@ -2,7 +2,7 @@ import { useRouter } from "next/router";
 import Breadcumb from "@/src/components/Breadcumb";
 import Layout from "@/src/layout/Layout";
 import Link from "next/link";
-import serviceDetailsData from "./content";
+import serviceDetailsData from "@/content/services/content";
 
 const ServiceDetails = () => {
   const { query } = useRouter();

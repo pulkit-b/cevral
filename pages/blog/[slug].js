@@ -1,7 +1,7 @@
 import { useRouter } from "next/router";
 import Breadcumb from "@/src/components/Breadcumb";
 import Layout from "@/src/layout/Layout";
-import allblog from "./content";
+import allblog from "@/content/blog/content";
 
 const BlogDetails = () => {
      const { query } = useRouter();
